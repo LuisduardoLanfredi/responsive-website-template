@@ -7,7 +7,7 @@ var uglify = require('gulp-uglify');
 
 var cssFiles = 
 	['./node_modules/reset-css/reset.less',
-	 './private/css/style.less']
+	 './private/css/*.less']
 
 var jsFiles = 
 	['./private/js/script.js']
